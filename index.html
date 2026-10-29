@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahol a Duna megfordul — Halmos Réka | Magvető (DEMÓ)</title>
+<meta name="description" content="Halmos Réka: Ahol a Duna megfordul — regény. Könyvbemutató: 2026. november 26. 18:00, Magvető Café. Demó bemutatóoldal.">
+<meta name="theme-color" content="#0e2231">
+<meta property="og:title" content="Ahol a Duna megfordul — Halmos Réka">
+<meta property="og:description" content="Három nemzedék, egyetlen nyár és egy folyó, amely mindent elvisz, amit nem kötünk ki elég erősen.">
+<meta property="og:image" content="borito-web.jpg">
+<meta property="og:type" content="book">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230e2231'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='%23c8a45f'%3E%D0%94%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --ejkek:#0e2231;
+    --ejkek-mely:#081722;
+    --petrol:#20475c;
+    --petrol-vilagos:#2f6079;
+    --krem:#f4eee2;
+    --krem-sotet:#e8dfcd;
+    --arany:#c8a45f;
+    --arany-vilagos:#e0c68c;
+    --szoveg:#24333d;
+    --szoveg-lagy:#5c6b74;
+    --paper:#faf6ee;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--krem);
+    color:var(--szoveg);
+    font-family:"Jost",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-weight:300;
+    line-height:1.7;
+    font-size:17px;
+    overflow-x:hidden;
+  }
+  .demo-ribbon{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    background:var(--arany);color:var(--ejkek-mely);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:500;text-align:center;padding:6px 10px 5px;
+  }
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;
+    background:
+      radial-gradient(ellipse at 50% 115%, rgba(200,164,95,.22) 0%, rgba(200,164,95,0) 55%),
+      radial-gradient(ellipse at 15% 0%, rgba(47,96,121,.55) 0%, rgba(47,96,121,0) 60%),
+      linear-gradient(178deg,#14303f 0%, #0e2231 42%, #081722 100%);
+    color:var(--krem);
+    padding:74px 22px 46px;
+    text-align:center;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";position:absolute;left:0;right:0;bottom:-1px;height:46px;
+    background:var(--krem);
+    clip-path:polygon(0 100%,0 46%,6% 58%,13% 40%,21% 62%,29% 44%,37% 60%,45% 42%,53% 58%,61% 41%,69% 59%,77% 44%,85% 60%,93% 45%,100% 56%,100% 100%);
+    opacity:.98;
+  }
+  .csillagok{position:absolute;inset:0;pointer-events:none;opacity:.5}
+  .csillagok span{position:absolute;width:2px;height:2px;border-radius:50%;background:var(--krem)}
+  .brand{
+    position:relative;z-index:2;
+    font-family:"Jost",sans-serif;font-weight:500;
+    font-size:11px;letter-spacing:.42em;text-transform:uppercase;
+    color:var(--arany-vilagos);margin:0 0 26px;
+  }
+  .brand .vonal{display:block;width:38px;height:1px;background:var(--arany);margin:12px auto 0;opacity:.7}
+  .borito-kontener{position:relative;z-index:2;perspective:1200px;margin:0 0 30px}
+  .borito-kontener img{
+    display:block;width:min(72vw,300px);height:auto;margin:0 auto;border-radius:2px;
+    box-shadow:0 26px 60px -18px rgba(0,0,0,.75), 0 6px 18px rgba(0,0,0,.4);
+  }
+  .borito-kontener::after{
+    content:"";position:absolute;left:0;right:0;bottom:-26px;height:26px;
+    background:radial-gradient(ellipse at center, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 70%);
+    width:min(70vw,290px);margin:0 auto;
+  }
+  .szerzo-nev{
+    position:relative;z-index:2;
+    font-family:"Jost",sans-serif;font-weight:400;
+    font-size:13px;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--arany);margin:0 0 10px;
+  }
+  h1{
+    position:relative;z-index:2;
+    font-family:"Cormorant Garamond",Georgia,serif;
+    font-weight:400;font-size:clamp(2.1rem,8.4vw,3.2rem);
+    line-height:1.08;margin:0 0 16px;letter-spacing:.01em;
+    color:var(--krem);text-wrap:balance;
+  }
+  h1 em{font-style:italic;color:var(--arany-vilagos)}
+  .mufaj{
+    position:relative;z-index:2;
+    font-family:"Cormorant Garamond",serif;font-style:italic;
+    font-size:1.05rem;color:rgba(244,238,226,.72);margin:0 0 26px;
+  }
+  .ado{margin:26px 0 0;position:relative;z-index:2}
+  /* ---------- SZEKCIOK ---------- */
+  section{padding:52px 22px;max-width:720px;margin:0 auto}
+  .eyebrow{
+    font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+    font-weight:500;color:var(--arany);margin:0 0 14px;
+  }
+  .eyebrow::after{content:"";display:block;width:30px;height:1px;background:currentColor;margin-top:10px;opacity:.55}
+  h2{
+    font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;
+    font-size:clamp(1.6rem,6.2vw,2.1rem);line-height:1.2;
+    margin:0 0 18px;color:var(--ejkek);letter-spacing:.005em;
+  }
+  p{margin:0 0 1.1em}
+  .fulszoveg p{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.24rem;line-height:1.65;color:#22323c}
+  .fulszoveg p:first-of-type::first-letter{
+    float:left;font-family:"Cormorant Garamond",serif;
+    font-size:3.5em;line-height:.82;padding:.06em .1em 0 0;color:var(--petrol);
+  }
+  /* ---------- RESZLET ---------- */
+  .reszlet{
+    background:linear-gradient(180deg,var(--ejkek) 0%,var(--ejkek-mely) 100%);
+    color:var(--krem);max-width:none;padding:56px 22px;
+  }
+  .reszlet-belso{max-width:620px;margin:0 auto}
+  .reszlet .eyebrow{color:var(--arany)}
+  .reszlet h2{color:var(--krem)}
+  .reszlet-torzs{
+    font-family:"Cormorant Garamond",Georgia,serif;
+    font-size:1.18rem;line-height:1.78;color:rgba(244,238,226,.9);
+  }
+  .reszlet-torzs p{margin-bottom:1em}
+  .reszlet-torzs p.elso::first-letter{
+    float:left;font-size:3.4em;line-height:.84;padding:.08em .1em 0 0;color:var(--arany-vilagos);
+  }
+  .reszlet .elvalaszto{width:54px;height:1px;background:var(--arany);opacity:.5;margin:26px 0}
+  .reszlet-jelzes{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:rgba(244,238,226,.5);margin:0}
+  /* ---------- SZERZO ---------- */
+  .szerzo{display:flex;flex-direction:column;gap:22px}
+  .szerzo-portre{
+    width:96px;height:96px;border-radius:50%;flex:0 0 auto;
+    background:linear-gradient(150deg,var(--petrol) 0%,var(--ejkek) 100%);
+    display:flex;align-items:center;justify-content:center;
+    font-family:"Cormorant Garamond",serif;font-size:2.1rem;color:var(--arany-vilagos);
+    letter-spacing:.04em;box-shadow:0 10px 24px -12px rgba(14,34,49,.7);
+    border:1px solid rgba(200,164,95,.4);
+  }
+  .szerzo p{font-size:1.02rem}
+  blockquote{
+    margin:26px 0 0;padding:0 0 0 20px;
+    border-left:2px solid var(--arany);
+    font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;
+    font-size:1.24rem;line-height:1.6;color:var(--petrol);
+  }
+  blockquote cite{display:block;font-family:"Jost",sans-serif;font-style:normal;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--szoveg-lagy);margin-top:14px}
+  /* ---------- ESEMENY ---------- */
+  .esemeny{
+    background:var(--paper);
+    border:1px solid rgba(200,164,95,.45);
+    border-radius:3px;padding:30px 26px;position:relative;
+    box-shadow:0 16px 40px -26px rgba(14,34,49,.5);
+  }
+  .esemeny::before{
+    content:"";position:absolute;inset:7px;border:1px solid rgba(200,164,95,.22);border-radius:2px;pointer-events:none;
+  }
+  .esemeny-datum{
+    font-family:"Cormorant Garamond",serif;font-size:1.6rem;color:var(--ejkek);
+    line-height:1.25;margin:0 0 6px;
+  }
+  .esemeny-hely{font-size:1rem;color:var(--szoveg-lagy);margin:0 0 4px}
+  .esemeny-reszletek{font-size:.94rem;color:var(--szoveg-lagy);margin:14px 0 0;padding-top:14px;border-top:1px solid rgba(200,164,95,.3)}
+  .esemeny-reszletek strong{color:var(--szoveg);font-weight:500}
+  /* ---------- CTA ---------- */
+  .cta{
+    text-align:center;max-width:none;
+    background:linear-gradient(180deg,var(--krem-sotet) 0%,var(--krem) 100%);
+    padding:56px 22px 64px;
+  }
+  .cta p.ar{margin:0 0 22px;font-family:"Cormorant Garamond",serif;font-size:1.5rem;color:var(--ejkek)}
+  .ar-osszeg{font-size:1.05rem;letter-spacing:.02em;color:var(--szoveg-lagy);margin:0 0 30px;font-family:"Jost",sans-serif}
+  .gomb{
+    display:inline-block;
+    font-family:"Jost",sans-serif;font-weight:500;font-size:13px;
+    letter-spacing:.26em;text-transform:uppercase;text-decoration:none;
+    color:var(--krem);background:var(--ejkek);
+    padding:19px 46px;border-radius:2px;
+    border:1px solid var(--ejkek);
+    box-shadow:0 14px 30px -16px rgba(14,34,49,.85);
+    transition:background .25s ease, color .25s ease, transform .2s ease, box-shadow .25s ease;
+    min-height:48px;
+  }
+  .gomb:hover,.gomb:focus{background:var(--petrol);border-color:var(--petrol);transform:translateY(-2px);box-shadow:0 18px 34px -16px rgba(14,34,49,.9)}
+  .gomb:active{transform:translateY(0)}
+  .cta .finom{font-size:.82rem;color:var(--szoveg-lagy);margin:18px 0 0}
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--ejkek-mely);color:rgba(244,238,226,.62);
+    padding:34px 22px 44px;text-align:center;font-size:.82rem;
+  }
+  footer .kiado{
+    font-family:"Cormorant Garamond",serif;font-size:1.1rem;letter-spacing:.3em;
+    text-transform:uppercase;color:var(--arany-vilagos);margin:0 0 12px;
+  }
+  footer p{margin:0 0 6px}
+  footer .demo-jelzes{
+    display:inline-block;margin-top:16px;padding:6px 14px;
+    border:1px solid rgba(200,164,95,.45);border-radius:2px;
+    font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--arany);
+  }
+  /* ---------- ANIMACIO ---------- */
+  .rejtes{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}
+  .rejtes.lat{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    .rejtes{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+  }
+  /* ---------- TABLET / DESKTOP ---------- */
+  @media (min-width:720px){
+    body{font-size:18px}
+    .hero{padding:96px 40px 64px}
+    .borito-kontener img{width:320px}
+    section{padding:68px 40px}
+    .szerzo{flex-direction:row;align-items:flex-start;gap:30px}
+    .szerzo-portre{width:120px;height:120px;font-size:2.6rem}
+  }
+</style>
+</head>
+<body>
+<div class="demo-ribbon">Demó bemutatóoldal · fiktív könyv</div>
+
+<header class="hero">
+  <div class="csillagok" aria-hidden="true">
+    <span style="top:14%;left:12%"></span><span style="top:9%;left:31%"></span>
+    <span style="top:18%;left:62%"></span><span style="top:7%;left:78%"></span>
+    <span style="top:26%;left:88%"></span><span style="top:33%;left:8%"></span>
+    <span style="top:41%;left:93%"></span><span style="top:22%;left:45%"></span>
+  </div>
+  <p class="brand">Magvető<span class="vonal"></span></p>
+  <div class="borito-kontener">
+    <img src="borito-web.jpg" width="1200" height="1800" alt="Ahol a Duna megfordul – Halmos Réka könyvének borítója">
+  </div>
+  <p class="szerzo-nev">Halmos Réka</p>
+  <h1>Ahol a Duna <em>megfordul</em></h1>
+  <p class="mufaj">regény</p>
+</header>
+
+<main>
+  <section class="fulszoveg rejtes">
+    <p class="eyebrow">A könyvről</p>
+    <h2>Három nemzedék, egyetlen nyár</h2>
+    <p>A Dunakanyarban, ahol a folyó megfordul, a Kerekes család hetven éve viszi át az embereket a túlpartra. Az öreg komp most eladó, és a nyár végéig mindenkinek döntenie kell. A nagymama 1956 óta őriz egy titkot, a fia a számokban hisz, az unoka pedig Berlinből tér haza – egy félbehagyott élet és egy bőrönd jegyzet után.</p>
+    <p>Három nemzedék, egyetlen nyár és egy folyó, amely mindent elvisz, amit nem kötünk ki elég erősen. Halmos Réka második regénye humorral és szelíd melankóliával mesél arról, mit jelent hazatérni oda, ahonnan egyszer el akartunk menni.</p>
+  </section>
+
+  <section class="reszlet">
+    <div class="reszlet-belso rejtes">
+      <p class="eyebrow">Részlet</p>
+      <h2>Első fejezet – Kötél</h2>
+      <div class="reszlet-torzs">
+        <p class="elso">A komp reggel hatkor indult, mindig hatkor, akkor is, ha senki sem várt rá a túlparton. Nagyanyám szerint a folyónak tudnia kell, hogy számítanak rá. „Ha egyszer kimarad egy járat – mondta –, a Duna megsértődik, és onnantól másfelé folyik.”</p>
+        <p>Tizenkét évig nem jártam haza. Most, ahogy a kocsiból kiszálltam a nagymarosi parton, a víz ugyanúgy fordult be a hegyek közé, mintha az egész idő alatt rám várt volna, kicsit sértetten, kicsit elnézően. A Kerekes-komp a stégnél ringott. A korláton a festék lepattogzott, a kormányállás ablakára valaki filctollal felírta: ELADÓ. Alatta egy telefonszám. Apámé.</p>
+        <p>– Nem kellett volna eljönnöd – mondta, amikor meglátott. Nem nézett rám, a kötelet tekerte a bakra, nyolcast, ahogy nagyapámtól tanulta. – Mindent elintéztem.</p>
+        <p>– Látom – mondtam, és a feliratra mutattam.</p>
+        <p>A túlparton megszólalt a harang, a visegrádi oldalon már gyűltek az első bicikliseket hozó kocsik. Apám a karórájára nézett, aztán a folyóra, aztán végre rám.</p>
+        <p>– Hatkor indulunk – mondta. – Ha jössz, fogd a kötelet.</p>
+        <p>Fogtam. A kender belevágott a tenyerembe, éppúgy, mint gyerekkoromban, és ahogy a komp elvált a parttól, megéreztem azt a régi, enyhe szédülést, amit a víz ad, amikor az ember először nem tudja, a part mozdult-e el, vagy ő maga.</p>
+        <p>A kormányállásban, a térképek alatt, egy bádogdoboz állt. Nagyanyám dobozát mindenki ismerte a családban, és senki sem nyitotta ki soha. Most a fedele félrecsúszott, és kilátszott belőle egy sárgult boríték sarka. Rajta a dátum, nagyanyám gyöngybetűivel: 1956. november 4.</p>
+      </div>
+      <div class="elvalaszto"></div>
+      <p class="reszlet-jelzes">Ahol a Duna megfordul · 2026</p>
+    </div>
+  </section>
+
+  <section class="szerzo rejtes">
+    <div class="szerzo-portre" aria-hidden="true">HR</div>
+    <div>
+      <p class="eyebrow">A szerző</p>
+      <h2>Halmos Réka</h2>
+      <p>Halmos Réka 1984-ben született Vácon. Irodalomtörténészként végzett, évekig egy budapesti kiadó szerkesztője volt, jelenleg Szentendrén él és ír. Első regénye, a <em>Kompos</em> (2021) a debütáló szerzők díjának shortlistjére került. Novellái irodalmi folyóiratokban jelennek meg.</p>
+      <blockquote>
+        „A Dunakanyarban nőttem fel, nagyapám révész volt. A komp számomra az a hely, ahol két part között az ember még egyikhez sem tartozik. Erről akartam írni: a hazatérésről, ami sosem ugyanoda vezet, ahonnan elindultunk.”
+        <cite>Halmos Réka</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="rejtes">
+    <p class="eyebrow">Könyvbemutató</p>
+    <div class="esemeny">
+      <p class="esemeny-datum">2026. november 26.<br>csütörtök, 18:00</p>
+      <p class="esemeny-hely">Magvető Café · Budapest, Dob utca 20.</p>
+      <p class="esemeny-reszletek">A szerzővel <strong>Varga Ádám</strong> kritikus beszélget. A belépés díjtalan, a helyek száma korlátozott.</p>
+    </div>
+  </section>
+
+  <section class="cta rejtes">
+    <p class="eyebrow" style="text-align:center">Megjelenik november 19-én</p>
+    <p class="ar">Előjegyzés</p>
+    <p class="ar-osszeg">352 oldal · keménytábla, védőborító · 5 999 Ft</p>
+    <a class="gomb" href="mailto:szbudahazy@arworks.com?subject=El%C5%91jegyz%C3%A9s%20%E2%80%93%20Ahol%20a%20Duna%20megfordul&body=Szeretn%C3%A9k%20el%C5%91jegyezni%20egy%20p%C3%A9ld%C3%A1nyt%20a%20%22Ahol%20a%20Duna%20megfordul%22%20c%C3%ADm%C5%B1%20k%C3%B6nyvb%C5%91l.%0A%0AN%C3%A9v%3A%0ATelefon%3A%0A%C3%81tv%C3%A9tel%20(vagy%20postai%20c%C3%ADm)%3A%0A">Előjegyzem</a>
+    <p class="finom">A gomb e-mailben küldi el az előjegyzést. Demó oldal, valódi rendelés nem történik.</p>
+  </section>
+</main>
+
+<footer>
+  <p class="kiado">Magvető</p>
+  <p>Ahol a Duna megfordul · Halmos Réka · 2026</p>
+  <p>ISBN 978-963-000-000-0</p>
+  <span class="demo-jelzes">Demó · fiktív könyv</span>
+</footer>
+
+<script>
+  (function(){
+    var elemek = document.querySelectorAll('.rejtes');
+    if(!('IntersectionObserver' in window)){
+      elemek.forEach(function(e){e.classList.add('lat')});
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('lat'); io.unobserve(en.target); }
+      });
+    },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+    elemek.forEach(function(e){io.observe(e)});
+  })();
+</script>
+</body>
+</html>
